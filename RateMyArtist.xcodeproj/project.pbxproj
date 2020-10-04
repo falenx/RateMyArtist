@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED39C36F25226E3500EFC524 /* TattooArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39C36D25226E3500EFC524 /* TattooArtistCell.swift */; };
+		ED39C37025226E3500EFC524 /* TattooArtistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED39C36E25226E3500EFC524 /* TattooArtistCell.xib */; };
+		ED39C3732523D57E00EFC524 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39C3722523D57E00EFC524 /* LoginViewController.swift */; };
+		ED39C3762523D58E00EFC524 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39C3752523D58E00EFC524 /* RegisterViewController.swift */; };
+		ED39C3792523D5B700EFC524 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39C3782523D5B700EFC524 /* GreetingViewController.swift */; };
+		EDAEBD8A251B97B100C8C851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBD89251B97B100C8C851 /* AppDelegate.swift */; };
+		EDAEBD8C251B97B100C8C851 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBD8B251B97B100C8C851 /* SceneDelegate.swift */; };
+		EDAEBD8E251B97B100C8C851 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBD8D251B97B100C8C851 /* HomeViewController.swift */; };
+		EDAEBD91251B97B100C8C851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAEBD8F251B97B100C8C851 /* Main.storyboard */; };
+		EDAEBD93251B97B300C8C851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAEBD92251B97B300C8C851 /* Assets.xcassets */; };
+		EDAEBD96251B97B300C8C851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAEBD94251B97B300C8C851 /* LaunchScreen.storyboard */; };
+		EDAEBDA3251B9BEF00C8C851 /* TattooArtistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBDA2251B9BEF00C8C851 /* TattooArtistProfileViewController.swift */; };
+		EDAEBDA7251B9C1300C8C851 /* SearchingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBDA5251B9C1300C8C851 /* SearchingTableViewController.swift */; };
+		EDAEBDAB251B9C3300C8C851 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBDAA251B9C3300C8C851 /* UserProfileViewController.swift */; };
+		EDAEBDAE251B9C4D00C8C851 /* SavedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBDAD251B9C4D00C8C851 /* SavedTableViewController.swift */; };
+		EDAEBDCC251D059C00C8C851 /* TattooArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAEBDCB251D059C00C8C851 /* TattooArtist.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED39C36D25226E3500EFC524 /* TattooArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooArtistCell.swift; sourceTree = "<group>"; };
+		ED39C36E25226E3500EFC524 /* TattooArtistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TattooArtistCell.xib; sourceTree = "<group>"; };
+		ED39C3722523D57E00EFC524 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = RateMyArtist/View/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		ED39C3752523D58E00EFC524 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ED39C3782523D5B700EFC524 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
+		EDAEBD86251B97B100C8C851 /* RateMyArtist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateMyArtist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAEBD89251B97B100C8C851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDAEBD8B251B97B100C8C851 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDAEBD8D251B97B100C8C851 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EDAEBD90251B97B100C8C851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDAEBD92251B97B300C8C851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAEBD95251B97B300C8C851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAEBD97251B97B300C8C851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAEBDA2251B9BEF00C8C851 /* TattooArtistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooArtistProfileViewController.swift; sourceTree = "<group>"; };
+		EDAEBDA5251B9C1300C8C851 /* SearchingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingTableViewController.swift; sourceTree = "<group>"; };
+		EDAEBDAA251B9C3300C8C851 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		EDAEBDAD251B9C4D00C8C851 /* SavedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTableViewController.swift; sourceTree = "<group>"; };
+		EDAEBDCB251D059C00C8C851 /* TattooArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooArtist.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAEBD83251B97B100C8C851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7DF608252266CD002CB11E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEBDCB251D059C00C8C851 /* TattooArtist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED7DF609252266E9002CB11E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEBD8F251B97B100C8C851 /* Main.storyboard */,
+				ED39C36D25226E3500EFC524 /* TattooArtistCell.swift */,
+				ED39C36E25226E3500EFC524 /* TattooArtistCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED7DF60A252266F9002CB11E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED39C3722523D57E00EFC524 /* LoginViewController.swift */,
+				ED39C3752523D58E00EFC524 /* RegisterViewController.swift */,
+				ED39C3782523D5B700EFC524 /* GreetingViewController.swift */,
+				EDAEBDAD251B9C4D00C8C851 /* SavedTableViewController.swift */,
+				EDAEBDA2251B9BEF00C8C851 /* TattooArtistProfileViewController.swift */,
+				EDAEBDA5251B9C1300C8C851 /* SearchingTableViewController.swift */,
+				EDAEBDAA251B9C3300C8C851 /* UserProfileViewController.swift */,
+				EDAEBD8D251B97B100C8C851 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EDAEBD7D251B97B100C8C851 = {
+			isa = PBXGroup;
+			children = (
+				EDAEBD88251B97B100C8C851 /* RateMyArtist */,
+				EDAEBD87251B97B100C8C851 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAEBD87251B97B100C8C851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEBD86251B97B100C8C851 /* RateMyArtist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAEBD88251B97B100C8C851 /* RateMyArtist */ = {
+			isa = PBXGroup;
+			children = (
+				ED7DF60A252266F9002CB11E /* Controller */,
+				ED7DF609252266E9002CB11E /* View */,
+				ED7DF608252266CD002CB11E /* Model */,
+				EDAEBD89251B97B100C8C851 /* AppDelegate.swift */,
+				EDAEBD8B251B97B100C8C851 /* SceneDelegate.swift */,
+				EDAEBD92251B97B300C8C851 /* Assets.xcassets */,
+				EDAEBD94251B97B300C8C851 /* LaunchScreen.storyboard */,
+				EDAEBD97251B97B300C8C851 /* Info.plist */,
+			);
+			path = RateMyArtist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAEBD85251B97B100C8C851 /* RateMyArtist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAEBD9A251B97B300C8C851 /* Build configuration list for PBXNativeTarget "RateMyArtist" */;
+			buildPhases = (
+				EDAEBD82251B97B100C8C851 /* Sources */,
+				EDAEBD83251B97B100C8C851 /* Frameworks */,
+				EDAEBD84251B97B100C8C851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RateMyArtist;
+			productName = RateMyArtist;
+			productReference = EDAEBD86251B97B100C8C851 /* RateMyArtist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAEBD7E251B97B100C8C851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EDAEBD85251B97B100C8C851 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = EDAEBD81251B97B100C8C851 /* Build configuration list for PBXProject "RateMyArtist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAEBD7D251B97B100C8C851;
+			productRefGroup = EDAEBD87251B97B100C8C851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAEBD85251B97B100C8C851 /* RateMyArtist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAEBD84251B97B100C8C851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAEBD96251B97B300C8C851 /* LaunchScreen.storyboard in Resources */,
+				EDAEBD93251B97B300C8C851 /* Assets.xcassets in Resources */,
+				EDAEBD91251B97B100C8C851 /* Main.storyboard in Resources */,
+				ED39C37025226E3500EFC524 /* TattooArtistCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAEBD82251B97B100C8C851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAEBDA3251B9BEF00C8C851 /* TattooArtistProfileViewController.swift in Sources */,
+				ED39C3762523D58E00EFC524 /* RegisterViewController.swift in Sources */,
+				EDAEBDAB251B9C3300C8C851 /* UserProfileViewController.swift in Sources */,
+				EDAEBDCC251D059C00C8C851 /* TattooArtist.swift in Sources */,
+				EDAEBD8E251B97B100C8C851 /* HomeViewController.swift in Sources */,
+				EDAEBDAE251B9C4D00C8C851 /* SavedTableViewController.swift in Sources */,
+				EDAEBD8A251B97B100C8C851 /* AppDelegate.swift in Sources */,
+				ED39C3792523D5B700EFC524 /* GreetingViewController.swift in Sources */,
+				ED39C36F25226E3500EFC524 /* TattooArtistCell.swift in Sources */,
+				EDAEBDA7251B9C1300C8C851 /* SearchingTableViewController.swift in Sources */,
+				ED39C3732523D57E00EFC524 /* LoginViewController.swift in Sources */,
+				EDAEBD8C251B97B100C8C851 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDAEBD8F251B97B100C8C851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAEBD90251B97B100C8C851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAEBD94251B97B300C8C851 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAEBD95251B97B300C8C851 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAEBD98251B97B300C8C851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDAEBD99251B97B300C8C851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAEBD9B251B97B300C8C851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RateMyArtist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Taylor.RateMyArtist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDAEBD9C251B97B300C8C851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RateMyArtist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Taylor.RateMyArtist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAEBD81251B97B100C8C851 /* Build configuration list for PBXProject "RateMyArtist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAEBD98251B97B300C8C851 /* Debug */,
+				EDAEBD99251B97B300C8C851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAEBD9A251B97B300C8C851 /* Build configuration list for PBXNativeTarget "RateMyArtist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAEBD9B251B97B300C8C851 /* Debug */,
+				EDAEBD9C251B97B300C8C851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAEBD7E251B97B100C8C851 /* Project object */;
+}
