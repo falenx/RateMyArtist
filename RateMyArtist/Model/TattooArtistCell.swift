@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct TattooArtistCell{
+    var artistName: String
+    var artistShop: String
+    var artistImage: String
+    var artistContactInfo: String // Instagram @
+    
+}

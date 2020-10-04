@@ -9,6 +9,16 @@ import UIKit
 
 class TattooArtistCell: UITableViewCell {
 
+    @IBOutlet weak var artistNameLabel: UILabel!
+    @IBOutlet weak var artistRatingLabel: UILabel!
+    @IBOutlet weak var favoriteButton: UIButton!
+    
+    @IBAction func favoriteButtonPressed(_ sender: UIButton) {
+        //favorite or unfavorite artist
+        //change star picture accordingly
+        
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

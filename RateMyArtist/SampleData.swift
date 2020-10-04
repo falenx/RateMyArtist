@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class SampleDatabase {
+    
+    var artistNames: [String]
+    
+    var savedArtists: [String]
+    
+    init(artistNamesArray: [String], savedArtistArray: [String]) {
+        artistNames = artistNamesArray
+        savedArtists = savedArtistArray
+    }
+}

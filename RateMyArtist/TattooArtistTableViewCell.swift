@@ -8,7 +8,16 @@
 import UIKit
 
 class TattooArtistTableViewCell: UITableViewCell {
+    
+    
+    
+    @IBOutlet weak var artistNameTextField: UITextField!
+    
 
+    var favorited: Bool = false
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

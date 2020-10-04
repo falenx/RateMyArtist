@@ -8,7 +8,16 @@
 import UIKit
 
 class GreetingViewController: UIViewController {
-
+    
+    
+    @IBAction func loginButtonPressed(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func registerButtonPressed(_ sender: UIButton) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

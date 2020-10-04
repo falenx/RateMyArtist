@@ -8,9 +8,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TattooArtistCell" customModule="RateMyArtist" customModuleProvider="target">
             <connections>
-                <outlet property="averageRatingLabel" destination="ztW-4o-wIt" id="o1O-6w-OEO"/>
-                <outlet property="favoriteButton" destination="8I0-Es-Acy" id="76b-SS-4lc"/>
-                <outlet property="tattooArtistNameLabel" destination="7sL-Fu-gcF" id="2pu-qm-EmN"/>
+                <outlet property="artistNameLabel" destination="7sL-Fu-gcF" id="Z99-7T-mti"/>
+                <outlet property="averageRatingLabel" destination="ztW-4o-wIt" id="cPA-wB-DtQ"/>
+                <outlet property="favoriteButton" destination="8I0-Es-Acy" id="vP2-tm-SHu"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -46,7 +46,7 @@
                                         </constraints>
                                         <state key="normal" title="Button" image="star" catalog="system"/>
                                         <connections>
-                                            <action selector="favoriteButtonPressed:" destination="-1" eventType="touchUpInside" id="cNF-vw-jy3"/>
+                                            <action selector="favoriteButtonPressed:" destination="-1" eventType="touchUpInside" id="lja-IH-TX3"/>
                                         </connections>
                                     </button>
                                 </subviews>

@@ -24,6 +24,7 @@ class UserProfileViewController: UIViewController {
     }
     
     @IBAction func changePasswordButtonPressed(_ sender: UIButton) {
+        
     }
     
     @IBAction func logoutButtonPressed(_ sender: UIButton) {
